@@ -1,3 +1,4 @@
 Déposer son flouz
 Retirer son blé
 Consulter son capital
+Quitter

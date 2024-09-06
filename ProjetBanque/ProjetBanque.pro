@@ -5,15 +5,18 @@ CONFIG -= qt
 
 SOURCES += \
         comptebancaire.cpp \
+        compteclient.cpp \
         compteepargne.cpp \
         main.cpp \
         menu.cpp
 
 HEADERS += \
     comptebancaire.h \
+    compteclient.h \
     compteepargne.h \
     menu.h
 
 DISTFILES += \
+    CompteClient.txt \
     compteBancaire.txt \
     compteEpargne.txt
