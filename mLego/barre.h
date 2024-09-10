@@ -9,7 +9,9 @@ class Barre
 {
 public:
     Barre(const string _reference, const string _nomAlliage, const int _longueur, const float _densite);
-    void AfficherCaracteristiques();
+    virtual ~Barre();
+    virtual void AfficherCaracteristiques();
+    virtual float CalculerMasse() = 0;
 protected:
     string reference;
     string nomAlliage;

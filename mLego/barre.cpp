@@ -13,3 +13,7 @@ void Barre::AfficherCaracteristiques() {
     cout << "Longueur: " << longueur << " cm." << endl;
     cout << "Densité: " << densite << " g/cm³."<< endl;
 }
+
+Barre::~Barre() {
+    cout << "Destruction de la barre : " << reference << endl;
+}

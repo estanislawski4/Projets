@@ -8,10 +8,12 @@ SOURCES += \
         barrecarree.cpp \
         barrerectangle.cpp \
         barreronde.cpp \
+        catalogue.cpp \
         main.cpp
 
 HEADERS += \
     barre.h \
     barrecarree.h \
     barrerectangle.h \
-    barreronde.h
+    barreronde.h \
+    catalogue.h
