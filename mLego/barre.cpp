@@ -10,6 +10,6 @@ Barre::Barre(const string _reference, const string _nomALliage, const int _longu
 void Barre::AfficherCaracteristiques() {
     cout << "Référence: " << reference << endl;
     cout << "Nom de l'alliage: " << nomAlliage << endl;
-    cout << "Longueur: " << longueur << endl;
-    cout << "Densité: " << densite << endl;
+    cout << "Longueur: " << longueur << " cm." << endl;
+    cout << "Densité: " << densite << " g/cm³."<< endl;
 }

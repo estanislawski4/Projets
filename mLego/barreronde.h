@@ -8,6 +8,7 @@ class BarreRonde : public Barre
 public:
     BarreRonde(const string _reference, const string _nomAlliage, const int _longueur, const float _densite, const int _diametre);
     float CalculerSection();
+    float CalculerMasse();
     void AfficherCaracteristiques();
 private:
     int diametre;
