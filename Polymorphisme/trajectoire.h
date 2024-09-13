@@ -2,7 +2,10 @@
 #define TRAJECTOIRE_H
 
 #include <iostream>
+#include <math.h>
 #include "element.h"
+#include "pause.h"
+#include "arc.h"
 
 using namespace std;
 
@@ -17,6 +20,7 @@ private:
     Element **parcours;
     int nbEtapesMax;
     int prochaineEtape;
+    Vecteur depart;
 };
 
 #endif // TRAJECTOIRE_H
