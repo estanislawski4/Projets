@@ -11,7 +11,7 @@ Catalogue::Catalogue(const int _nbBarres):
 }
 Catalogue::~Catalogue()
 {
-    for (int i = 0; i < index; ++i) {
+    for (int i = 0; i < index; i++) {
         delete lesBarres[i];
     }
     delete[] lesBarres;
@@ -21,7 +21,7 @@ bool Catalogue::AjouterBarre(Barre *ptrBarre)
 {
     bool retour = true;
     if (index < nbBarres)
-        lesBarres[index++] = ptrBarre; // On ajoute un pointeur sur la barre
+        lesBarres[index++] = ptrBarre;
     else
         retour = false;
     return retour;

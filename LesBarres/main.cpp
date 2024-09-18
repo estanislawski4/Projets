@@ -11,7 +11,7 @@ int main() {
         // Créer un menu à partir du fichier texte
         Menu menu("../LesBarres/Catalogue.txt");
 
-        Catalogue Catalogue1(4);  // Crée un catalogue avec une capacité de 4 barres
+        Catalogue Catalogue1(4);
 
         int choix;
         do {
